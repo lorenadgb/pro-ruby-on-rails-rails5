@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.3.4'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -21,6 +20,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'rails-controller-testing'
 end
 
 group :development do
