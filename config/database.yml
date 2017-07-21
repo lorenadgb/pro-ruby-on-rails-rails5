@@ -9,6 +9,7 @@ development:
 
 test:
   <<: *default
+  database: pro-ruby-on-rails-rails5_test
 
 production:
   <<: *default
