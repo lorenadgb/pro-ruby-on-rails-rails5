@@ -62,7 +62,6 @@ footer {
   color: #777;
   padding-left: 10px;
   padding-right: 10px;
-  text-align: center;
 }
 
 footer a {
@@ -119,4 +118,8 @@ footer ul li {
   color: #202B3C;
   font-weight: bold;
   font-size: 1.5em;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
